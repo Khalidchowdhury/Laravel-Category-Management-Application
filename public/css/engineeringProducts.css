@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* breadcrumb */
+.breadcrumbMobile{
+    display: none;
+    padding: 20px 0 10px 10px;
+    border-bottom: 1px solid #AFAFAF
+    ;
+}
+
+.breadcrumbMobile ol li a{
+    font-family: TT Hoves Pro Trial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
+/* breadcrumb */
+
+
+
+
+
+
+/* hero */
+.allProductBanner{
+    background-image: url("../images/engineeringProducts.png");
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+    object-fit: cover;
+}
+
+.allProductBanner h1{
+    font-family: Arimo;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+    color: #ffffff;
+    margin-top: 150px;
+    object-fit: cover;
+}
+/* hero*/
+
+
+
+/* breadcrumb */
+.breadcrumbMobile{
+    display: none;
+    padding: 20px 0 10px 10px;
+    border-bottom: 1px solid #AFAFAF;
+}
+
+.breadcrumbMobile ol li a{
+    font-family: TT Hoves Pro Trial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
+/* breadcrumb */
+
+
+
+/* engineering Products */
+
+.engineeringProdutcs{
+    padding: 112px 0;
+}
+
+.engineeringProdutcs h1{
+    font-family: TT Hoves Pro Trial;
+font-size: 48px;
+font-weight: 600;
+line-height: 52.8px;
+text-align: left;
+padding-bottom: 70px;
+}
+
+.engineeringProdutcs p{
+    font-family: TT Hoves Pro Trial;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+padding-bottom: 70px;
+color: #4B4B4B;
+}
+
+.btn2{
+    width: 242px;
+    height: 52px;
+}
+/* engineering Products */
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1280px){
+}
+
+@media (max-width:1199px){
+}
+
+@media (max-width:991px){
+    .engineeringProdutcs h1{
+        font-family: TT Hoves Pro Trial;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 5px;
+        text-align: left;
+        padding-bottom: 50px;
+    }
+
+    .engineeringProdutcs p{
+        font-family: TT Hoves Pro Trial;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        padding-bottom: 50px;
+        padding-right: 50px;
+    }
+
+    .engineeringProdutcsinfo{
+        padding-bottom: 60px;
+    }
+    .engineeringProductimage{
+        width: 100%;
+    }
+}
+
+@media (max-width:500px){
+
+    .breadcrumbDesktop{
+        display: none;
+    }
+
+    .breadcrumbMobile{
+        display: block;
+    }
+
+    .engineeringProdutcs{
+        padding: 70px 0;
+    }
+
+    .engineeringProdutcs h1{
+        font-family: TT Hoves Pro Trial;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 5px;
+        text-align: left;
+        padding-bottom: 40px;
+    }
+
+    .engineeringProdutcs p{
+        font-family: TT Hoves Pro Trial;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        padding-bottom: 40px;
+        padding-right: 20px;
+    }
+
+
+}

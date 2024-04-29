@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* breadcrumb */
+.breadcrumbMobile{
+    display: none;
+    padding: 20px 0 10px 10px;
+    border-bottom: 1px solid #AFAFAF
+    ;
+}
+
+.breadcrumbMobile ol li a{
+    font-family: TT Hoves Pro Trial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+
+}
+/* breadcrumb */
+
+
+
+
+
+
+/* hero */
+.allProductBanner{
+    background-image: url("../images/product/allProduct-Banner.png");
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+    object-fit: cover;
+}
+
+.allProductBanner h1{
+    font-family: Arimo;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+    color: #ffffff;
+    margin-top: 150px;
+    object-fit: cover;
+}
+/* hero*/
+
+
+
+
+/* products */
+.productsGallery{
+    padding: 100px 0;
+}
+.productsGallery h1{
+    font-family: TT Hoves Pro Trial;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52.8px;
+    color: black;
+    padding-bottom: 30px;
+}
+
+.productsGallery h3{
+    font-family: TT Hoves Pro Trial;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding: 20px 0 15px 0;
+}
+
+.productsGallery p{
+    font-family: TT Hoves Pro Trial;
+font-size: 17px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color:#6B6B6B;
+}
+
+.productsGallery img{
+    width: 100%;
+}
+
+.desktopPadding{
+    margin-bottom: 30px;
+}
+
+.desktopPadding:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+    backdrop-filter: blur(10px); /* Apply backdrop filter for the frosted effect */
+    transform: scale(1.01); /* Scale the element by 10% on hover */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+
+
+
+
+
+.pagination-container {
+            width: fit-content;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        .pagination-container ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .pagination-container ul li {
+            margin: 0 2px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            padding: 5px 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .pagination-container ul li:first-child {
+            margin-left: 0;
+        }
+
+        .pagination-container ul li:last-child {
+            margin-right: 0;
+        }
+
+        .pagination-container ul li:hover {
+            background-color: #f0f0f0;
+        }
+
+        .pagination-container ul li.prev, .pagination-container ul li.next {
+            display: flex;
+            align-items: center;
+        }
+
+        .pagination-container ul li.prev::before, .pagination-container ul li.next::after {
+            content: '\2039'; /* Code for left-pointing triangle */
+            font-size: 18px;
+            margin-right: 5px;
+        }
+
+        .pagination-container ul li.next::after {
+            content: '\203A'; /* Code for right-pointing triangle */
+            margin-left: 5px;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .productsGalleryMobile{
+            display: none;
+        }
+
+
+
+        .productsGalleryMobile h1{
+            font-family: TT Hoves Pro Trial;
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 5px;
+            text-align: left;
+            color: #000000;    
+            padding: 40px 0;
+        }
+
+
+        .productsGalleryMobile .products img {
+            width: 100%; /* Ensures the image takes up 100% of its container's width */
+            height: auto; /* Maintains aspect ratio */
+          }
+
+
+          .productsGalleryMobile .products h3{
+            font-family: TT Hoves Pro Trial;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+            padding: 30px 0 20px 0;
+          }
+
+          .productsGalleryMobile .products p{
+            font-family: TT Hoves Pro Trial;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            color: #6B6B6B;
+            padding-bottom: 40px;
+          }
+
+
+          .pagination-container ul{
+            margin-bottom: 0;
+          }
+        /* products */
+
+
+
+        @media (max-width:991px){
+            .productsGallery p{
+                font-size: 15px;
+            }
+        }
+
+
+
+
+@media (max-width:500px){
+    .productsGallery{
+        display: none;
+    }
+
+    .productsGalleryMobile{
+        display: block;
+    }
+
+    .breadcrumbDesktop{
+        display: none;
+    }
+
+    .breadcrumbMobile{
+        display: block;
+    }
+    
+}

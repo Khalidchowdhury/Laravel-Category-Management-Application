@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>All Products</title>
+        <!-- Author Meta Tag -->
+        <meta name="author" content="Mazharul Islam">
+        <!-- Favicon -->
+        <link rel="icon" href="images/fav.png" type="image/x-icon">
+        <!-- fonts -->
+        <link href="https://fonts.cdnfonts.com/css/tt-hoves-pro-trial" rel="stylesheet">
+
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+        <!-- Arimo fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+
+        <!-- carosel -->
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="css/floating-wpp.min.css">
+
+
+        <!-- bootstrap cdn -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- custom stylesheet -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/allProducts.css">
+    </head>
+    
+
+
+
+<body class="">
+
+    <!-- header -->
+    <header class="">
+      <nav class="navbar bg-white navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container container-custom">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/tabsteelnewlogo (1).png" alt="" class="img-fluid">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <img src="images/image 1.png" alt="" class="img-fluid">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3" id="menu">
+                <li class="nav-item navItemforMobile mb-3">
+                  <div class="searchWrapper">
+                    <input type="search" placeholder="Search Products.." class="offCanvasInput">
+                    <i class="fa-solid fa-magnifying-glass searchIcon"></i>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="aboutUs.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown" id="featureDropdown">
+                  <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products <i class="fa-solid fa-caret-down"></i></a>
+                  <ul class="dropdown-menu shadow" id="featureMenu">
+
+                    <li><a class="dropdown-item" href="allProduct.html">All products</a></li>
+
+                    <!-- Three items with nested dropdowns -->
+                    <li class="dropdown-item dropdown mt-1">
+                      <a class="dropdown-item dropdown-item-custom" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        Structural Products <i class="fa-solid fa-caret-right"></i>
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu1">
+                        <li><a class="dropdown-item" href="OffshorePlates.html">Offshore  Plates</a></li>
+                        <li><a class="dropdown-item" href="#">Structural Plates</a></li>
+                        <li><a class="dropdown-item" href="#">Pressure Vessel Plates</a></li>
+                        <li><a class="dropdown-item" href="#">Beams</a></li>
+                        <li><a class="dropdown-item" href="#">Channels</a></li>
+                        <li><a class="dropdown-item" href="#">Flats</a></li>
+                        <li><a class="dropdown-item" href="#">Hollow Sections</a></li>
+                        <li><a class="dropdown-item" href="#">Angles</a></li>
+                      </ul>
+                    </li>
+
+
+
+                    <li class="dropdown-item dropdown mt-1">
+                      <a class="dropdown-item dropdown-item-custom" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        Piping Products <i class="fa-solid fa-caret-right"></i>
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu2">
+                        <li><a class="dropdown-item" href="#">Offshore Seamless Pipes</a></li>
+                        <li><a class="dropdown-item" href="#">Welded Pipes</a></li>
+                        <li><a class="dropdown-item" href="#">Stainless Steel Pipes</a></li>
+                        <li><a class="dropdown-item" href="#">Fittings</a></li>
+                        <li><a class="dropdown-item" href="#">Flanges</a></li>
+                        <li><a class="dropdown-item" href="#">Bolts & Nuts</a></li>
+                        <li><a class="dropdown-item" href="#">Gaskets</a></li>
+                      </ul>
+                    </li>
+
+
+
+                    <li class="dropdown-item dropdown mt-1">
+                      <a class="dropdown-item dropdown-item-custom" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        FC & I products <i class="fa-solid fa-caret-right"></i>
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu3">
+                        <li><a class="dropdown-item" href="#">Industrial Hoses & Fittings</a></li>
+                        <li><a class="dropdown-item" href="#">Pressure & Temperature Gauges</a></li>
+                        <li><a class="dropdown-item" href="#">Instrument Tubings & Fittings</a></li>
+                        <li><a class="dropdown-item" href="#">Manual Valves</a></li>
+                      </ul>
+                    </li>
+                    <!-- Last item without a nested dropdown -->
+                    <li><a class="dropdown-item" href="engineeringProduts.html">Engineering Products</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="contactUs.html">Contact Us</a>
+                </li>
+              </ul>
+              <div class="d-flex mt-3">
+                <img src="images/icon/Search Nav Button.png" alt="" class="searchImage">
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header -->
+
+
+
+    <!-- hero -->
+    <section class="allProductBanner">
+      <div class="container">
+        <h1>Products</h1>
+        <nav aria-label="breadcrumb" class="breadcrumbDesktop">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">All Product</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+
+
+    <nav aria-label="breadcrumb" class="breadcrumbMobile">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">All Product</li>
+      </ol>
+    </nav>
+    <!-- hero -->
+
+
+
+
+
+    <!-- products-->
+    <section class="productsGallery">
+      <div class="container">
+
+        <h1>All Products</h1>
+
+        <div class="row">
+
+
+          <div class="col-lg-3 col-md-6 col-12 perticularProduct desktopPadding">
+            <a href="OffshorePlates.html">
+              <img src="images/product/Offshore  Plates.png" alt="" class="img-fluid">
+              <h3>Offshore  Plates</h3>
+              <p>Explore our offshore plates designed for exceptional strength and durability in offshore structures, oil platforms, and marine projects.</p>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12 perticularProduct desktopPadding">
+            <a href="">
+              <img src="images/product/Structural Plates.png" alt="" class="img-fluid">
+              <h3>Structural Plates</h3>
+              <p>These structural plates are versatile and find extensive use in diverse construction projects, including bridges and highway infrastructure.</p>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12 perticularProduct desktopPadding">
+            <a href="">
+              <img src="images/product/Pressure Vessel Plates.png" alt="" class="img-fluid">
+              <h3>Pressure Vessel Plates</h3>
+              <p>Our pressure vessel plates are engineered for high-stress environments, providing exceptional strength and resistance for applications in demanding pressure vessel operations.</p>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12 perticularProduct desktopPadding">
+            <a href="">
+              <img src="images/product/Beams.png" alt="" class="img-fluid">
+              <h3>Beams</h3>
+              <p>These structural beams offer diverse solutions for construction and offshore applications, providing optimal strength, versatility, and adherence to EuroNorm standards.</p>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12 perticularProduct desktopPadding">
+            <a href="">
+              <img src="images/product/Channels.png" alt="" class="img-fluid">
+              <h3>Channels</h3>
+              <p>These channels provide versatile and reliable solutions for construction, offering optimal strength and adherence to industry specifications.</p>
+            </a>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-12 perticularProduct desktopPadding">
+            <a href="">
+              <img src="images/product/Flats.png" alt="" class="img-fluid">
+              <h3>Flats</h3>
+              <p>Explore our structural flats that offer versatile solutions for construction projects, providing flat and wide surfaces with specified mechanical properties, ensuring performance in structural applications.</p>
+            </a>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-12 perticularProduct desktopPadding">
+            <a href="">
+              <img src="images/product/Hollow Sections.png" alt="" class="img-fluid">
+              <h3>Hollow Sections</h3>
+              <p>Our hollow sections, meeting EN10210 standards, provide versatile and structurally sound solutions for construction with various dimensions and applicability in diverse conditions.</p>
+            </a>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-12 perticularProduct desktopPadding">
+            <a href="">
+              <img src="images/product/Angles.png" alt="" class="img-fluid">
+              <h3>Angles</h3>
+              <p>These angles  are crucial in construction, featuring L-shaped profiles that offer stability and support with specified mechanical properties for diverse applications.</p>
+            </a>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-12 perticularProduct desktopPadding">
+            <a href="">
+              <img src="images/product/Offshore Seamless Pipes.png" alt="" class="img-fluid">
+              <h3>Offshore Seamless Pipes</h3>
+              <p>Explore our offshore seamless pipes that deliver durable solutions for marine environments, catering to offshore drilling and oil/gas transportation needs</p>
+            </a>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-12 perticularProduct desktopPadding">
+            <a href="">
+              <img src="images/product/Welded Pipes.png" alt="" class="img-fluid">
+              <h3>Welded Pipes</h3>
+              <p>These welded pipes find widespread use in industries for conveying liquids and gases, as well as in construction and infrastructure projects.
+              </p>
+            </a>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-12 perticularProduct desktopPadding">
+            <a href="">
+              <img src="images/product/Stainless Steel Pipes.png" alt="" class="img-fluid">
+              <h3>Stainless Steel Pipes</h3>
+              <p>Experience durability and versatility in one with our stainless steel tubes, designed for excellence in plumbing, construction, and industrial processes.</p>
+            </a>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-12 perticularProduct desktopPadding">
+            <a href="">
+              <img src="images/product/Fittings.png" alt="" class="img-fluid">
+              <h3>Fittings</h3>
+              <p>Our fittings, in diverse materials and sizes, excel in plumbing, piping, and industrial applications, ensuring seamless flow, precise direction, and optimal control.</p>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12 perticularProduct desktopPadding">
+            <a href="">
+              <img src="images/product/Flanges.png" alt="" class="img-fluid">
+              <h3>Flanges</h3>
+              <p>Elevate your piping solutions with our essential flanges – circular components meticulously designed with secure bolt holes, ensuring optimal connections for efficient assembly and maintenance across diverse industries.</p>
+            </a>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-12 perticularProduct desktopPadding">
+            <a href="">
+              <img src="images/product/Bolts & Nuts.png" alt="" class="img-fluid">
+              <h3>Bolts & Nuts</h3>
+              <p>From heavy machinery to everyday structures, these sturdy companions ensure security, stability, and durability across diverse applications.</p>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12 perticularProduct desktopPadding">
+            <a href="">
+              <img src="images/product/Gaskets.png" alt="" class="img-fluid">
+              <h3>Gaskets</h3>
+              <p>Discover tight, leak-free seals with our durable gaskets. Perfect for pipes and machinery, ensuring efficiency in every application.</p>
+            </a>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-12 perticularProduct desktopPadding">
+            <a href="">
+              <img src="images/product/Manual Valves.png" alt="" class="img-fluid">
+              <h3>Manual Valves</h3>
+              <p>These valves offer easy, hands-on control for various applications, ensuring precision and reliability with every turn to control the flow and direction of fluids..</p>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12 perticularProduct desktopPadding">
+            <a href="">
+              <img src="images/product/Pressure & Temperature Gauges.png" alt="" class="img-fluid">
+              <h3>Pressure & Temperature Gauges</h3>
+              <p>Elevate monitoring with our pressure and temperature gauge. Compact and reliable, it delivers precise readings, ensuring optimal conditions in any setting.</p>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12 perticularProduct desktopPadding">
+            <a href="">
+              <img src="images/product/Instrument Tubings Fittings.png" alt="" class="img-fluid">
+              <h3>Instrument Tubings & Fittings</h3>
+              <p>Perfect your instrumentation with our tubings & fittings to provide a reliable conduit for fluids and facilitate efficient control. </p>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12 perticularProduct desktopPadding">
+            <a href="">
+              <img src="images/product/Industrial Hoses Fittings.png" alt="" class="img-fluid">
+              <h3>Industrial Hoses & Fittings</h3>
+              <p>Elevate industrial fluid systems with our hoses & fittings—precision-designed for durability and seamless connections.</p>
+            </a>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+    <!-- products-->
+
+
+
+
+
+
+<section class="productsGalleryMobile">
+  <div class="container">
+    <h1>All Products</h1>
+    <div class="products" id="product-list"></div>
+    <div class="pagination-container">
+        <ul id="pagination-ul"></ul>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer -->
+<footer>
+  <div class="container-fluid">
+
+    <div class="row footerImage mb-4">
+      <a href="index.html"><img src="images/Tab Steels Logo-footer.png" alt=""></a>
+    </div>
+
+
+    <div class="row ">
+      <div class="col-lg-4 col-12 mb-4">
+        <h3>About Us</h3>
+
+        <p class="hiddenfromTablet">We specialise in delivering  cost-effective, high quality steels <br> and engineering a range of products, including structural <br> steels, pipes, valves, bolts, gaskets, flanges, and fittings. We <br> cater to the needs of the oil and gas, marine, offshore and <br> onshore, petrochemical, and renewable industries, ensuring <br> quality solutions that meet industry demands.
+        </p>
+
+
+        <p class="hiddeninDesktop">We specialise in delivering cost-effective, high quality steels  and engineering a range of <br>  products, including structural  steels, pipes, valves, bolts, gaskets, flanges, and fittings. <br> We  cater to the needs of the oil and gas, marine, offshore and  onshore, petrochemical, <br> and renewable industries, ensuring quality solutions that meet industry demands.
+        </p>
+      </div>
+
+
+      <div class="col-lg-8 col-12">
+        <div class="row">
+          <div class="col-md-4 col-12">
+            <h3>Office</h3>
+
+            <p class="hiddenfromTablet">61 Kaki Bukit Avenue 1 #05-34 <br>
+              Shun Li Industrial Park, <br>
+              Singapore, 417943
+            </p>
+
+
+
+
+            <div class="hiddeninDesktop">
+              <div class="gmap_canvas">
+                <iframe width="100%" height="50%" id="gmap_canvas" src="https://maps.google.com/maps?q=Shun Li Industrial Park, 61 Kaki Bukit Ave 1, Singapore 417943&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                
+
+              </div>
+            </div>
+
+            <p class="hiddeninDesktop">61 Kaki Bukit Avenue 1 #05-34 <br>
+              Shun Li Industrial Park,
+              Singapore, 417943
+            </p>
+
+          </div>
+
+          <div class="col-md-4 col-12">
+            <h3>Contact</h3>
+            <ul class="list-unstyled">
+              <li><a href="mailto:sales@tabsteels.com">Email : sales@tabsteels.com</a></li>
+              <li><a href="tel:+6598162261">Phone : (+65) 9816226</a></li>
+            </ul>
+          </div>
+          
+          <div class="col-md-4 col-12">
+            <h3>Link</h3>
+             <ul class="list-unstyled">
+             <li><a href="index.html">Home</a></li>
+             <li><a href="aboutUs.html">About Us</a></li>
+             <li><a href="allProduct.html">Products</a></li>
+             <li><a href="contactUs.html">Contact Us</a></li>
+             <li><a href="contactUs.html">Sitemap</a></li>
+             </ul>
+        </div>
+
+      </div>
+    </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-4 col-12 footerCustomp1">
+        <p> Designed by Christine Lim – <br> UIUX Designer for Web & App Development</p>
+      </div>
+
+      <div class="col-lg-4 col-12 footerCustomp2">
+        <p class="m-0">Copyright © 2024 TAB STEELS PTE LTD. All Rights Reserved</p>
+      </div>
+
+      <div class="col-lg-4 col-12">
+        
+          <div class="floating-wpp"></div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+<!-- footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!-- js bundle -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- carosel -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- floating whatsapp -->
+    <script src="js/floating-wpp.min.js"></script>
+
+    <!-- mouse wheel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+
+
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+</body>
+</html>

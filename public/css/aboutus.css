@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* breadcrumb */
+.breadcrumbMobile{
+    display: none;
+    padding: 20px 0 10px 10px;
+    border-bottom: 1px solid #AFAFAF
+    ;
+}
+
+.breadcrumbMobile ol li a{
+    font-family: TT Hoves Pro Trial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+
+}
+/* breadcrumb */
+
+
+
+
+
+
+/* hero */
+.allProductBanner{
+    background-image: url("../images/aboutusBanner.png");
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+    object-fit: cover;
+}
+
+.allProductBanner h1{
+    font-family: Arimo;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+    color: #ffffff;
+    margin-top: 150px;
+    object-fit: cover;
+}
+/* hero*/
+
+
+
+/* breadcrumb */
+.breadcrumbMobile{
+    display: none;
+    padding: 20px 0 10px 10px;
+    border-bottom: 1px solid #AFAFAF
+    ;
+}
+
+.breadcrumbMobile ol li a{
+    font-family: TT Hoves Pro Trial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+
+}
+/* breadcrumb */
+
+
+
+
+/* aboutussection1 */
+.aboutussection1{
+    padding: 100px 0;
+}
+
+.aboutussection1Info{
+
+}
+
+.aboutusvideo video{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.aboutussection1Info h1{
+    font-family: TT Hoves Pro Trial;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52.8px;
+    padding-bottom: 30px;
+}
+
+.aboutussection1Info p{
+    font-family: TT Hoves Pro Trial;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #4B4B4B;
+}
+
+
+/* aboutussection1 */
+
+
+
+
+/* industry sector  */
+.industraySector{
+    padding-bottom: 50px;
+}
+.industraySectorInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.industraySectorInfo h1{
+    font-family: TT Hoves Pro Trial;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52.8px;
+}
+
+.industraySectorInfo ul li{
+    font-family: TT Hoves Pro Trial;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #4B4B4B;
+    margin-top: 30px;
+}
+
+.displayfromMobile{
+    display: none;
+}
+/* industry sector  */
+
+
+
+/* get to know us */
+
+.gettoKnowUs{
+    background-color: #F1F1F1;
+    padding: 80px 0;
+}
+.gettoKnowUs h1{
+    font-family: TT Hoves Pro Trial;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52.8px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 50px;
+}
+
+.gettoKnowUs h3{
+    font-family: TT Hoves Pro Trial;
+font-size: 20px;
+font-weight: 500;
+line-height: 44px;
+text-align: left;
+color: #000000;
+}
+
+.gettoKnowUs p{
+    font-family: TT Hoves Pro Trial;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+color: #4B4B4B;
+padding-bottom: 30px;
+}
+
+.gettoKnowUs ul li{
+    font-family: TT Hoves Pro Trial;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #4B4B4B;
+    margin-top: 15px;
+}
+/* get to know us */
+
+
+
+
+@media (max-width:1280px){
+    .aboutussection1Info p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width:1199px){
+    .aboutussection1Info p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .aboutussection1Info h1 {
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 35px;
+        padding-bottom: 20px;
+    }
+
+    .industraySectorInfo h1 {
+        font-size: 35px;
+    }
+
+    .industraySectorInfo ul li {
+        font-size: 17px;
+        margin-top: 25px;
+    }
+}
+
+
+
+
+
+
+@media (max-width:991px){
+
+    .aboutussection1Info h1{
+        font-family: TT Hoves Pro Trial;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 5px;
+        text-align: left;
+        padding-bottom: 30px;
+    }
+
+    .aboutussection1Info p {
+        font-family: TT Hoves Pro Trial;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        padding-bottom: 30px;
+    }
+
+    .displayfromMobile{
+        display: block;
+        font-family: TT Hoves Pro Trial;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 5px;
+        text-align: left;
+        padding-bottom: 40px;
+    }
+
+
+    .gettoKnowUs h1{
+        font-family: TT Hoves Pro Trial;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 5px;
+        text-align: left;
+        padding-top: 40px;
+    }
+
+    .gettoKnowUs p{
+        font-family: TT Hoves Pro Trial;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        padding-bottom: 20px;
+
+    }
+
+    .industraySectorInfo{
+        display: none;
+    }
+    .displayonlydesktop{
+        display: none;
+    }
+
+
+
+    .breadcrumbDesktop{
+        display: none;
+    }
+
+    .breadcrumbMobile{
+        display: block;
+    }
+}
+
+
+@media (max-width:500px){
+
+}

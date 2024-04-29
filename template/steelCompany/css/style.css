@@ -1,0 +1,1446 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+}
+
+
+/* common properties */
+
+
+
+
+.sectionDeviderforDesktop{
+  margin-bottom: 150px;
+}
+
+
+
+.mobile{
+  display: none;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+	overflow: hidden;
+  width: 164px;
+  height: 54px;
+	position: relative;
+	z-index: 0;
+  background-color: #ff4a23;
+  font-family: TT Hoves Pro Trial;
+  font-size: 16px;
+  font-weight: 400;
+  /* padding: 8px 32px 8px 32px; */
+  border: none;
+  border-radius: 0;
+  box-shadow: 0px 4px 28px 0px #00000021;
+}
+
+.btn1{
+  width: 196px;
+}
+
+.btn3{
+  width: 242px;
+  font-size: 16px;
+}
+
+.btn2 a{
+  text-align: center;
+}
+
+
+
+a {
+	text-decoration: none;
+  font-family: TT Hoves Pro Trial;
+  font-size: 16px;
+  font-weight: 400;
+	transition: color 650ms ease-in-out;
+}
+.a1 {
+  color: #ffffff;
+}
+
+.a1:before {
+  background: #ffffff;
+}
+
+a:before {
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: -1;
+	border-radius: 50%;
+	transition: all 500ms ease-in-out;
+}
+a:hover {
+	cursor: pointer;
+	color: #ff4a23;
+}
+a:hover:before { 
+	content: "";
+	width: 285px;
+	height: 250px;
+	left: -13%;
+	top: -150%;
+	transition: all 500ms ease-in-out;
+}
+
+
+
+
+.card-img, .card-img-top {
+  border-top-left-radius: 0!important;
+  border-top-right-radius:  0!important;
+}
+
+.item button:hover{
+  background-color: #FF4A23;
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background: #FF4A23;
+  color: #FFF;
+  text-decoration: none;
+}
+
+
+.structuralDivisionRight .owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  left: -45px!important;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.structuralDivisionRight .owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  right: -45px!important;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+/* common properties */
+
+
+
+/* Header */
+
+
+.navbar {
+  z-index: 99999;
+  box-shadow: 0px 8px 8px 0px rgba(83, 83, 83, 0.25); /* Adjusted for clarity */
+}
+
+
+
+.navbar-brand img {
+  width: 181px;
+  height: 124px
+}
+
+.dropdown-item.dropdown {
+  position: relative
+}
+
+.dropdown-item.dropdown>.dropdown-menu {
+  position: absolute;
+  left: 100%;
+  top: 0
+}
+
+.dropdown-item-custom {
+  padding-left: 0 !important
+}
+
+.fa-caret-right {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.fa-bars {
+  font-size: 30px
+}
+
+.nav-link {
+  font-family: TT Hoves Pro Trial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: .01em;
+  color: #000;
+  padding: 8px 12px;
+  margin-right: 70px
+}
+
+.dropdown-item:hover,
+.nav-link:hover {
+  background-color: #ff4a23;
+  color: #fff
+}
+
+.container-custom {
+  max-width: 1700px;
+}
+
+.navItemforMobile {
+  display: none;
+}
+
+.searchImage {
+  cursor: pointer
+}
+
+.offCanvasInput {
+  width: calc(100% - 30px); /* Adjust width for the icon */
+  background-color: transparent;
+  padding: 10px;
+  border: 1px solid #ffffff;
+}
+
+.searchWrapper {
+  position: relative;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%);
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.dropdown-item-custom {
+  padding: .5rem 1rem
+}
+
+.navbar-expand-lg .offcanvas-body {
+  align-items: center;
+}
+
+.submitbtn{
+  color: #ffffff!important;
+}
+
+.submitbtn:hover{
+  background-color: transparent;
+  border: 1px solid #FF4A23;
+  color: #FF4A23!important;
+}
+
+
+/* Header */
+
+
+
+
+
+/* hero */
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 850px; 
+  margin-top: 150px;
+}
+
+.video-container video {
+  min-width: 100%; 
+  min-height: 100%; 
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6); 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+.videoContent{
+  max-width: 1700px;
+  margin: auto;
+  padding: 0 20px;
+  z-index: 9999;
+  padding-top: 140px;
+}
+
+.overlay h1 {
+  color: #ffffff;
+  font-family: TT Hoves Pro Trial;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62px;
+  text-align: left;
+  padding-bottom: 60px;
+}
+
+.overlay h1 span{
+  font-weight: 700;
+}
+
+.overlay p{
+  font-family: TT Hoves Pro Trial;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #ffffff;
+  padding-bottom: 80px;
+} 
+
+/* hero */
+
+
+
+
+
+
+
+/* about us */
+.aboutUs{
+  margin-bottom: 150px;
+}
+.vieoPart {
+  position: relative;
+  width: 546px; /* Set the width */
+  height: 648px; /* Set the height */
+}
+.vieoPartMain{
+  position: relative;
+}
+.vieoPart video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Makes video fill the container width */
+  height:100%; /* Makes video fill the container height */
+  object-fit: cover; /* Ensures the video covers the area properly */
+}
+.vieoPartMain img{
+  position: absolute;
+  z-index: 99;
+  width: 492px;
+  height: 283px;
+  right: 0;
+  bottom: -50px;
+}
+.infoPart{
+  padding: 98px;
+}
+.infoPart h1{
+  font-family: TT Hoves Pro Trial;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 5px;
+  color: #000000;
+  padding-bottom: 80px;
+}
+
+.vieoPartMain h1{
+  font-family: TT Hoves Pro Trial;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+
+.infoPart p{
+  font-family: TT Hoves Pro Trial;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+color:#4B4B4B;
+padding-bottom: 80px;
+}
+/* about us */
+
+
+
+
+
+
+
+/* reputation */
+.reputation{
+  margin-bottom: 150px;
+}
+
+.reputation h1{
+  font-family: TT Hoves Pro Trial;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 52.8px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 50px;
+}
+
+.reputationText{
+  font-family: TT Hoves Pro Trial;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  color: #4B4B4B;
+  padding-bottom: 50px;
+}
+
+
+.reputationCard{
+  text-align: center;
+  padding: 15px;
+  /* background-color: #F1F1F1; */
+}
+
+.reputationCard img{
+  width: 32.6px;
+  height: 30.51px;
+  margin: auto;
+}
+
+.reputationCard h6{
+  font-family: TT Hoves Pro Trial;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  padding-top: 10px;
+}
+
+.reputationCard p{
+  font-family: TT Hoves Pro Trial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #4B4B4B;
+}
+
+.carousel1 img {
+  display: block;
+  width: inherit!important;
+}
+
+.carousel1{
+  display: none!important;
+}
+
+.owl-counter{
+  display: none;
+}
+/* reputation */
+
+
+
+
+
+
+
+
+
+
+
+
+/* sector */
+.sector{
+  margin-bottom:0px;
+}
+.sector h1{
+  font-family: TT Hoves Pro Trial;
+font-size: 48px;
+font-weight: 600;
+line-height: 52.8px;
+text-align: center;
+color: #000000;
+margin-bottom: 50px;
+}
+.imagesHolder{
+  display: flex;
+  width: 100%; /* Ensure the holder takes the full width */
+}
+
+.imageWrapper{
+  flex: 1; /* This makes each wrapper take equal space in the container */
+  display: flex; /* To apply flex properties inside the wrapper, if needed */
+  position: relative;
+}
+
+.imageWrapper img{
+  width: 100%; /* Makes the image take the full width of its parent */
+  height: auto; /* Keeps the aspect ratio of the image */
+}
+
+.imageName{
+  background-color: rgba(51, 51, 51, 0.5); /* #333333 with 50% opacity */
+  position: absolute;
+  z-index: 9999;
+  bottom: 20px;
+  right: 0;
+  height:41px;
+  width: 163px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 10px;
+}
+
+.imageName p{
+  font-family: TT Hoves Pro Trial;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 17.6px;
+  color: #ffffff;
+}
+
+
+
+.secorfortablet{
+  display: none;
+}
+
+.sectorformobile{
+  display: none;
+}
+
+
+/* sector */
+
+
+
+/* product division */
+.productDivision{
+  background-color:#F1F1F1;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.productDivisionInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding-left: 100px;
+}
+
+.productDivisionInfo h1{
+  font-family: TT Hoves Pro Trial;
+font-size: 48px;
+font-weight: 600;
+line-height: 52.8px;
+text-align: left;
+margin-bottom: 50px;
+}
+
+.productDivisionInfo p{
+    font-family: TT Hoves Pro Trial;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color:#4B4B4B;
+  margin-bottom: 50px;
+}
+
+.productDivisionTextforMobile{
+  display: none;
+}
+
+/* product division */
+
+
+
+
+
+
+
+
+
+/* structural division */
+.structuralDivision {
+  display: flex;
+  background-color:#F1F1F1;
+  padding-bottom: 100px;
+}
+
+
+
+
+
+.owl-carousel .item img {
+  height: 100%; /* Make the image fill the height of its parent container */
+  object-fit: cover; /* Ensure the image covers the entire container without stretching */
+  margin-bottom: 15px;
+}
+
+.structuralDivisionleft h1{
+  font-family: TT Hoves Pro Trial;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+
+.structuralDivisionleft p{
+  font-family: TT Hoves Pro Trial;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+.btn2{
+  width: 242px;
+}
+
+
+.structuralDivisionRight{
+  padding-top: 30px;
+}
+
+
+
+
+
+
+.structuralDivisionRight .owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  left: -25px; /* Adjust as needed */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.structuralDivisionRight .owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  right: -25px; /* Adjust as needed */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.structuralDivisionRight .owl-carousel .owl-nav button {
+  background: #fff; /* Button background */
+  color: #333; /* Arrow color */
+  border-radius: 50%;
+  width: 30px; /* Button size */
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+.structuralDivisionRight .card{
+  background-color: #F1F1F1;
+  padding: 15px;
+}
+
+
+
+.item button{
+  width: 100%;
+  background-color: #ffffff;
+  color: #ff4a23;
+  border: 1px solid #ff4a23;
+  height: 52px;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card{
+  border: none;
+}
+
+/* structural division */
+
+
+
+
+
+
+
+/* Engineering Division */
+.engineeringDivision{
+  background-color: #F1F1F1;
+  padding-bottom: 100px;
+}
+
+.engineeringDivision h1{
+  font-family: TT Hoves Pro Trial;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.engineeringDivision p{
+  font-family: TT Hoves Pro Trial;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #4B4B4B;
+  padding-bottom: 30px;
+}
+
+.engineeringDivisionVideo video{
+  width: 100%;
+  height: auto;
+}
+
+/* Engineering Division */
+
+
+
+
+
+
+/* contact */
+.contact{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.contact h1{
+  font-family: TT Hoves Pro Trial;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 52.8px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.contact p{
+  font-family: TT Hoves Pro Trial;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+
+.contactForm p{
+  font-family: TT Hoves Pro Trial;
+font-size: 12px;
+font-weight: 400;
+line-height: 13.2px;
+text-align: right;
+}
+
+.contactForm h2{
+  font-family: TT Hoves Pro Trial;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+}
+
+
+
+.border-bottom-only {
+  border: none;
+  border-bottom: 1px solid #000; /* Customize the color as needed */
+  box-shadow: none;
+}
+
+
+
+
+  .form-check-label {
+    font-family: 'TT Hoves Pro Trial', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap; /* Prevents text from wrapping */
+  }
+  
+  .form-check {
+    margin-right: 15px; /* Adjust spacing between radio buttons, optional */
+  }
+
+
+
+  .border-bottom-only {
+    border: none;
+    border-bottom: 1px solid #000; /* Customize the color as needed */
+    box-shadow: none;
+    width: 100%; /* Ensure full width */
+  }
+
+
+
+  .btn-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns the button to the right */
+    margin-top: 20px; /* Adds some space above the button, adjust as needed */
+  }
+  
+ 
+.btnSubmit{
+  color: #ffffff;
+}
+/* contact */
+
+
+
+
+
+/* footer */
+footer{
+ background-color:#373737;
+ padding: 40px 20px;
+}
+
+footer p, h3, a{
+  color: #F0F0F0;
+  font-family: TT Hoves Pro Trial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.16px;
+  text-align: left;
+ }
+
+ footer h3{
+  font-size: 20px;
+ }
+
+ footer  a:hover{
+  color: #FF4A23;
+ }
+ 
+ 
+
+
+.footerImage img{
+  width: 154px;
+}
+
+.hiddeninDesktop{
+  display: none;
+}
+/* footer */
+
+
+
+
+
+
+.floating-wpp{
+  z-index: 999;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+
+@media (max-width:1399px){
+  .vieoPart {
+    width: 500px;
+    height: 600px;
+}
+
+.vieoPartMain img {
+  bottom: 34px;
+}
+
+.infoPart p {
+  font-size: 16px;
+}
+
+}
+
+
+
+@media (max-width:1199px){
+  .vieoPart {
+    width: 400px;
+    height: 500px;
+}
+
+.infoPart p {
+ padding-bottom: 30px;
+}
+
+.infoPart h1 {
+  padding-bottom: 30px;
+}
+
+.vieoPartMain img {
+  width: 90%;
+}
+}
+
+
+
+
+
+@media (max-width:991px) {
+
+  .offcanvas-body,
+  .offcanvas-header {
+    background-color: #2c2c2c
+  }
+
+  .offcanvas-header .btn-close {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px
+  }
+
+  .nav-link {
+    margin-right: 0;
+    margin-bottom: 15px;
+    padding-left: 10px !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+    font-size: 16px
+  }
+
+  .nav-link:hover {
+    background-color: #704239;
+    border-left: 7px solid #ff4a23
+  }
+
+  .dropdown-item.dropdown>.dropdown-menu {
+    position: static;
+    display: none;
+    left: 0;
+    background-color: #fff;
+    box-shadow: none;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0;
+    transition: max-height .5s, opacity .5s, visibility .5s
+  }
+
+  .dropdown-item.dropdown.show>.dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    max-height: 500px
+  }
+
+  .fa-caret-right {
+    transform: rotate(90deg)
+  }
+
+  .searchImage {
+    display: none
+  }
+
+  .navItemforMobile {
+    display: block
+  }
+
+
+
+  .overlay h1{
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .overlay p{
+    display: none;
+  }
+
+  .video-container {
+    height: 500px;
+}
+
+
+.video-container {
+  margin-bottom: 100px;
+}
+
+
+.vieoPartMain img {
+  width: 256.7px;
+  height: 148.6px;
+  bottom: 4px;
+}
+
+.vieoPart {
+  width: 285.8px;
+  height: 340.6px;
+}
+.infoPart {
+  padding: 20px;
+}
+
+.infoPart h1 {
+  font-size: 32px;
+  padding-bottom: 30px;
+}
+
+.infoPart p {
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 18px;
+}
+
+.reputation h1 {
+font-size: 32px;
+line-height: 5px;
+padding-bottom: 30px;
+}
+
+.aboutUs {
+  margin-bottom: 100px;
+}
+
+.reputationText {
+  font-size: 16px;
+}
+
+.reputationCard {
+  padding: 15px;
+}
+
+.reputationCard img {
+  width: 32.9px;
+  height: 33.33px;
+  margin: auto;
+}
+
+.reputationCard h6{
+  font-size: 16px;
+}
+
+.reputationCard p {
+font-size: 14px;
+}
+
+.reputation{
+  margin-bottom: 100px;
+}
+
+
+.sectorforDesktop{
+  display: none;
+}
+
+
+.secorfortablet{
+  display: block;
+}
+
+
+.secorfortablet{
+
+}
+
+
+/* Add margin to the images */
+
+
+/* Align the right side images to the right */
+.col-4:last-child {
+  text-align: right;
+}
+
+.image-container {
+  display: flex;
+  align-items: stretch; /* Ensures that items will stretch to fill the container's height */
+}
+
+.image-container img {
+  width: 100%; /* Ensures the image takes up the full width of its container */
+  height: auto; /* Allows the height to adjust proportionally to the width */
+}
+
+.sector h1{
+  font-size: 32px;
+}
+
+.sectorformobile{
+  display: none;
+}
+
+.productDivisionInfo h1{
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.productDivisionInfo p{
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.productDivisionInfo{
+  padding-left: 60px;
+}
+
+.productDivision{
+  padding-top: 100px;
+}
+
+
+.structuralDivisionleft h1 {
+  font-family: TT Hoves Pro Trial;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 25px;
+  padding-bottom:20px;
+}
+
+.structuralDivisionleft p{
+  font-family: TT Hoves Pro Trial;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+padding-bottom:20px;
+}
+
+.structuralDivision{
+  padding-bottom: 80px;
+}
+
+.engineeringDivision h1{
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 45px;
+  color: #222222;
+  padding-bottom: 20px;
+}
+
+.engineeringDivision p {
+  font-family: TT Hoves Pro Trial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+.engineeringDivisionTextInfo{
+  padding-bottom: 50px;
+}
+
+.hiddenfromTablet{
+  display: none;
+}
+
+.hiddeninDesktop{
+  display: block;
+}
+
+
+
+footer p, h3, a{
+  font-size: 14px;
+ }
+
+ footer h3{
+  font-size: 16px;
+ }
+
+ .floating-wpp .floating-wpp-button{
+  height: 59px!important;
+  width: 59px!important;
+ }
+
+ .footerCustomp1{
+  padding-bottom: 30px;
+  padding-top: 30px;
+ }
+
+ .footerCustomp2 p{
+  text-align: center;
+ }
+
+}
+
+
+
+
+@media (max-width:768px){
+  .infoPart h1 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.infoPart {
+  padding: 10px;
+}
+
+
+.infoPart p {
+  font-size: 15px;
+  line-height: 22px;
+  padding-bottom: 12px;
+}
+
+.vieoPart {
+  width: 225.8px;
+  height: 270.6px;
+}
+
+.vieoPartMain img {
+  width: 240.7px;
+  height: 130.6px;
+  bottom: 27px;
+}
+
+.btn1 {
+  width: 150px;
+  height: 40px;
+}
+
+
+}
+
+
+
+@media (max-width:575px){
+  .vieoPart {
+    width: 450px;
+    height: 550px;
+    margin: auto;
+}
+
+
+.vieoPartMain img {
+  width: 80%;
+  height: auto;
+  bottom: -100px;
+}
+
+
+.infoPart{
+  padding: 20px;
+  padding-top: 112px;
+}
+
+.infoPart h1{
+  font-family: TT Hoves Pro Trial;
+font-size: 30px;
+font-weight: 600;
+line-height: 5px;
+}
+
+.infoPart p{
+  font-family: TT Hoves Pro Trial;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+}
+
+.btn1 {
+  width: 196px;
+  height: 54px;
+}
+
+
+}
+
+
+
+@media (max-width:451px){
+
+  .desktop{
+    display: none;
+  }
+
+  .video-container {
+    height: 100vh;
+    margin-top: 0px;
+}
+
+.mobile{
+  display: block;
+}
+
+.overlay{
+  padding-top: 150px;
+}
+
+.overlay h1 {
+  font-family: Arimo;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: left;
+}
+
+.video-container {
+  margin-bottom: 60px;
+}
+
+.vieoPartMain{
+  margin-bottom: 30px;
+}
+
+.vieoPartMain h1{
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.vieoPartMain img {
+  bottom: -35px;
+}
+
+.carousel1{
+  display: block!important;
+}
+
+.owl-theme .owl-nav {
+  margin-top: -10px;
+}
+
+.owl-nav{
+  padding-right: 230px;
+}
+
+.owl-nav button{
+  background-color: #ff4a23!important;
+  width: 35px;
+  height: 35px;
+  border-radius: 0!important;
+}
+
+.caruselWrapper{
+  position: relative;
+}
+
+.owl-counter{
+  position: absolute;
+  bottom: 12px;
+  right: 15px;
+  font-family: TT Hoves Pro Trial;
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+}
+
+.sector h1{
+  font-size: 28px;
+}
+
+.secorfortablet{
+  display: none;
+}
+
+.sectorformobile{
+  display: block;
+}
+
+.productDivisionTextfordesktop{
+  display: none;
+}
+
+.productDivisionTextforMobile{
+  display: block;
+  font-family: TT Hoves Pro Trial;
+font-size: 30px;
+font-weight: 600;
+line-height: 5px;
+padding-bottom: 40px;
+}
+
+.productDivision{
+  padding-top: 80px;
+}
+
+.productDivision img{
+  padding-bottom: 30px;
+}
+
+.productDivisionInfo{
+  padding-right: calc(var(--bs-gutter-x)* .5);
+  padding-left: calc(var(--bs-gutter-x)* .5);
+}
+
+
+.structuralDivisionleft h1 {
+  font-family: TT Hoves Pro Trial;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 5px;
+  padding-bottom:15px;
+}
+
+.structuralDivisionleft p{
+  font-family: TT Hoves Pro Trial;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.structuralDivisionRight .card{
+  background-color: #F1F1F1;
+  padding: 0px;
+}
+
+
+.engineeringDivision h1 {
+  font-size: 24px;
+}
+
+.btn3{
+  width: 242px;
+  font-size: 16px;
+}
+
+
+.vieoPart{
+  width: 285.8px;
+  height: 340.61px;
+}
+
+
+.vieoPartMain img{
+  width: 256.78px;
+  height: 148.63px;
+}
+
+.infoPart {
+  padding: 20px;
+  padding-top: 50px;
+}
+
+}
+/* MEDIA QUERY */

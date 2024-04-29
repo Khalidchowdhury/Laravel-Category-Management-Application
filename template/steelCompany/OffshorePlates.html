@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>All Products</title>
+        <!-- Author Meta Tag -->
+        <meta name="author" content="Mazharul Islam">
+        <!-- Favicon -->
+        <link rel="icon" href="images/fav.png" type="image/x-icon">
+        <!-- fonts -->
+        <link href="https://fonts.cdnfonts.com/css/tt-hoves-pro-trial" rel="stylesheet">
+
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+        <!-- Arimo fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+
+        <!-- carosel -->
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="css/floating-wpp.min.css">
+
+
+        <!-- bootstrap cdn -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- custom stylesheet -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/OffshorePlates.css">
+
+    </head>*
+    
+
+
+
+<body class="">
+
+
+    <!-- header -->
+    <header class="">
+      <nav class="navbar bg-white navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container container-custom">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/tabsteelnewlogo (1).png" alt="" class="img-fluid">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <img src="images/image 1.png" alt="" class="img-fluid">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3" id="menu">
+                <li class="nav-item navItemforMobile mb-3">
+                  <div class="searchWrapper">
+                    <input type="search" placeholder="Search Products.." class="offCanvasInput">
+                    <i class="fa-solid fa-magnifying-glass searchIcon"></i>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="aboutUs.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown" id="featureDropdown">
+                  <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products <i class="fa-solid fa-caret-down"></i></a>
+                  <ul class="dropdown-menu shadow" id="featureMenu">
+
+                    <li><a class="dropdown-item" href="allProduct.html">All products</a></li>
+
+                    <!-- Three items with nested dropdowns -->
+                    <li class="dropdown-item dropdown mt-1">
+                      <a class="dropdown-item dropdown-item-custom" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        Structural Products <i class="fa-solid fa-caret-right"></i>
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu1">
+                        <li><a class="dropdown-item" href="OffshorePlates.html">Offshore  Plates</a></li>
+                        <li><a class="dropdown-item" href="#">Structural Plates</a></li>
+                        <li><a class="dropdown-item" href="#">Pressure Vessel Plates</a></li>
+                        <li><a class="dropdown-item" href="#">Beams</a></li>
+                        <li><a class="dropdown-item" href="#">Channels</a></li>
+                        <li><a class="dropdown-item" href="#">Flats</a></li>
+                        <li><a class="dropdown-item" href="#">Hollow Sections</a></li>
+                        <li><a class="dropdown-item" href="#">Angles</a></li>
+                      </ul>
+                    </li>
+
+
+
+                    <li class="dropdown-item dropdown mt-1">
+                      <a class="dropdown-item dropdown-item-custom" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        Piping Products <i class="fa-solid fa-caret-right"></i>
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu2">
+                        <li><a class="dropdown-item" href="#">Offshore Seamless Pipes</a></li>
+                        <li><a class="dropdown-item" href="#">Welded Pipes</a></li>
+                        <li><a class="dropdown-item" href="#">Stainless Steel Pipes</a></li>
+                        <li><a class="dropdown-item" href="#">Fittings</a></li>
+                        <li><a class="dropdown-item" href="#">Flanges</a></li>
+                        <li><a class="dropdown-item" href="#">Bolts & Nuts</a></li>
+                        <li><a class="dropdown-item" href="#">Gaskets</a></li>
+                      </ul>
+                    </li>
+
+
+
+                    <li class="dropdown-item dropdown mt-1">
+                      <a class="dropdown-item dropdown-item-custom" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        FC & I products <i class="fa-solid fa-caret-right"></i>
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu3">
+                        <li><a class="dropdown-item" href="#">Industrial Hoses & Fittings</a></li>
+                        <li><a class="dropdown-item" href="#">Pressure & Temperature Gauges</a></li>
+                        <li><a class="dropdown-item" href="#">Instrument Tubings & Fittings</a></li>
+                        <li><a class="dropdown-item" href="#">Manual Valves</a></li>
+                      </ul>
+                    </li>
+                    <!-- Last item without a nested dropdown -->
+                    <li><a class="dropdown-item" href="engineeringProduts.html">Engineering Products</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="contactUs.html">Contact Us</a>
+                </li>
+              </ul>
+              <div class="d-flex mt-3">
+                <img src="images/icon/Search Nav Button.png" alt="" class="searchImage">
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header -->
+
+
+
+    <!-- hero -->
+    <section class="allProductBanner">
+      <div class="container">
+        <h1>Products</h1>
+
+        <nav aria-label="breadcrumb" class="breadcrumbDesktop">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="allProduct.html">All Product</a></li>
+            <li class="breadcrumb-item"><a href="#">Structural Products</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Offshore Plates</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+
+
+    <nav aria-label="breadcrumb" class="breadcrumbMobile">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="allProduct.html">All Product</a></li>
+        <li class="breadcrumb-item"><a href="#">Structural Products</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Offshore Plates</li>
+      </ol>
+    </nav>
+    <!-- hero -->
+
+
+
+
+
+    <!-- single product -->
+    <section class="singleProduct">
+      <div class="container">
+        <h1>Offshore Plates</h1>
+
+        <div class="row">
+
+          <div class="col-lg-6 col-12 singleProductImage">
+            <img src="images/product/OffshorePlatesForsingleProducts.png" alt="" class="img-fluid">
+          </div>
+
+
+          <div class="col-lg-6 col-12 singleProductInfo">
+
+            <div class="perticulerProductinfo">
+              <h2>EN10225 S355G10+M / S355ML0 </h2>
+              <p>This is high-strength offshore steel with a grade of S355G10+M / <br> S355ML0 and conforms to EN10225 specifications.</p>
+            </div>
+
+
+            <div class="perticulerProductinfo">
+              <h2>EN10225 S420G2+M / S420ML0</h2>
+              <p>This robust offshore steel, designated as S420G2+M / S420ML0, <br> meets EN10225 specifications.</p>
+            </div>
+
+
+            <div class="perticulerProductinfo">
+              <h2>EN10225 S460G2+M / S460ML0</h2>
+              <p>This advanced offshore-grade steel, identified as S460G2+M / S460ML0, <br> adheres to EN10225 specifications.</p>
+            </div>
+
+            <div class="perticulerProductinfo">
+              <h2>ASTM A240 / ASME SA240 SS304/304L</h2>
+              <p>These stainless steel sheets, available in SS304/304L grades, <br> comply with ASTM A240 / ASME SA240 specifications.</p>
+            </div>
+
+            <div class="perticulerProductinfo">
+              <h2>ASTM A240 / ASME SA240 SS316/3164</h2>
+              <p>These high-quality stainless steel sheets, featuring SS316/316L grades, <br> meet ASTM A240 / ASME SA240 specifications.</p>
+            </div>
+
+
+
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- single product -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer -->
+<footer>
+  <div class="container-fluid">
+
+    <div class="row footerImage mb-4">
+      <a href="index.html"><img src="images/Tab Steels Logo-footer.png" alt=""></a>
+    </div>
+
+
+    <div class="row ">
+      <div class="col-lg-4 col-12 mb-4">
+        <h3>About Us</h3>
+
+        <p class="hiddenfromTablet">We specialise in delivering  cost-effective, high quality steels <br> and engineering a range of products, including structural <br> steels, pipes, valves, bolts, gaskets, flanges, and fittings. We <br> cater to the needs of the oil and gas, marine, offshore and <br> onshore, petrochemical, and renewable industries, ensuring <br> quality solutions that meet industry demands.
+        </p>
+
+
+        <p class="hiddeninDesktop">We specialise in delivering cost-effective, high quality steels  and engineering a range of <br>  products, including structural  steels, pipes, valves, bolts, gaskets, flanges, and fittings. <br> We  cater to the needs of the oil and gas, marine, offshore and  onshore, petrochemical, <br> and renewable industries, ensuring quality solutions that meet industry demands.
+        </p>
+      </div>
+
+
+      <div class="col-lg-8 col-12">
+        <div class="row">
+          <div class="col-md-4 col-12">
+            <h3>Office</h3>
+
+            <p class="hiddenfromTablet">61 Kaki Bukit Avenue 1 #05-34 <br>
+              Shun Li Industrial Park, <br>
+              Singapore, 417943
+            </p>
+
+
+
+
+            <div class="hiddeninDesktop">
+              <div class="gmap_canvas">
+                <iframe width="100%" height="50%" id="gmap_canvas" src="https://maps.google.com/maps?q=Shun Li Industrial Park, 61 Kaki Bukit Ave 1, Singapore 417943&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                
+
+              </div>
+            </div>
+
+            <p class="hiddeninDesktop">61 Kaki Bukit Avenue 1 #05-34 <br>
+              Shun Li Industrial Park,
+              Singapore, 417943
+            </p>
+
+          </div>
+
+          <div class="col-md-4 col-12">
+            <h3>Contact</h3>
+            <ul class="list-unstyled">
+              <li><a href="mailto:sales@tabsteels.com">Email : sales@tabsteels.com</a></li>
+              <li><a href="tel:+6598162261">Phone : (+65) 9816226</a></li>
+            </ul>
+          </div>
+          
+          <div class="col-md-4 col-12">
+            <h3>Link</h3>
+             <ul class="list-unstyled">
+             <li><a href="index.html">Home</a></li>
+             <li><a href="aboutUs.html">About Us</a></li>
+             <li><a href="allProduct.html">Products</a></li>
+             <li><a href="contactUs.html">Contact Us</a></li>
+             <li><a href="contactUs.html">Sitemap</a></li>
+             </ul>
+        </div>
+
+      </div>
+    </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-4 col-12 footerCustomp1">
+        <p> Designed by Christine Lim – <br> UIUX Designer for Web & App Development</p>
+      </div>
+
+      <div class="col-lg-4 col-12 footerCustomp2">
+        <p class="m-0">Copyright © 2024 TAB STEELS PTE LTD. All Rights Reserved</p>
+      </div>
+
+      <div class="col-lg-4 col-12">
+        
+          <div class="floating-wpp"></div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+<!-- footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!-- js bundle -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- carosel -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- floating whatsapp -->
+    <script src="js/floating-wpp.min.js"></script>
+
+    <!-- mouse wheel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+
+
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+</body>
+</html>

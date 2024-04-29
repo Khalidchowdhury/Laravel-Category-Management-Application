@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* breadcrumb */
+.breadcrumbMobile{
+    display: none;
+    padding: 20px 0 10px 10px;
+    border-bottom: 1px solid #AFAFAF
+    ;
+}
+
+.breadcrumbMobile ol li a{
+    font-family: TT Hoves Pro Trial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+
+}
+/* breadcrumb */
+
+
+
+
+
+
+/* hero */
+.allProductBanner{
+    background-image: url("../images/product/allProduct-Banner.png");
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+    object-fit: cover;
+}
+
+.allProductBanner h1{
+    font-family: Arimo;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+    color: #ffffff;
+    margin-top: 150px;
+    object-fit: cover;
+}
+/* hero*/
+
+
+
+/* breadcrumb */
+.breadcrumbMobile{
+    display: none;
+    padding: 20px 0 10px 10px;
+    border-bottom: 1px solid #AFAFAF
+    ;
+}
+
+.breadcrumbMobile ol li a{
+    font-family: TT Hoves Pro Trial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+
+}
+/* breadcrumb */
+
+
+
+
+
+/* singleProduct */
+.singleProduct{
+    padding: 100px 0;
+}
+
+.singleProduct h1{
+    font-family: TT Hoves Pro Trial;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52.8px;
+    text-align: left;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+.perticulerProductinfo{
+    padding-bottom: 50px;
+}
+
+.perticulerProductinfo h2{
+    font-family: TT Hoves Pro Trial;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #000000;
+    border-left: 5px solid #FF4A23;
+    padding-left: 10px;
+}
+
+
+.perticulerProductinfo p{
+    font-family: TT Hoves Pro Trial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6B6B6B;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+/* singleProduct */
+
+
+
+
+
+@media (max-width:1224px){
+    .perticulerProductinfo p{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+@media (max-width:991px){
+.singleProductImage{
+    padding-bottom: 30px;
+}
+}
+
+
+
+@media (max-width:500px){
+    .breadcrumbDesktop{
+        display: none;
+    }
+
+    .breadcrumbMobile{
+        display: block;
+    }
+}

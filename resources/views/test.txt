@@ -1,0 +1,13 @@
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            @foreach($categories as $category)
+              <li><a class="dropdown-item" href="#">{{ $category->name }}</a></li>
+              @if($category->children()->count() > 0)
+              <ul class="dropdown-menu">
+                @foreach($category->children as $child)
+                  <li><a class="dropdown-item" href="#">{{ $child->name }}</a></li>
+                @endforeach
+              </ul>
+            </li>
+              @endif
+            @endforeach
+          </ul>
